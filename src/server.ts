@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
  
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://team3-energyx-bucket.s3-website.eu-west-3.amazonaws.com/'],
+  origin: ['http://localhost:5173', 'http://team3-energyx-bucket.s3-website.eu-west-3.amazonaws.com'],
   credentials: true
 }));
  
